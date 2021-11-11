@@ -7,79 +7,47 @@ In your README.md, be sure to have clear instructions on:
     Note: This section used to require three bash scripts but has been revised.
 
 
-my-eth-app
+
+blockchain-developer-bootcamp-final-project
 ├── README.md
 ├── node_modules
 ├── package.json
 ├── .gitignore
 └── packages
-├── contracts
-│
- ├── README.json
-│
- ├── package.json
-│
- └── src
-│
- ├── abis
-│
- │
- ├── erc20.json
-│
- │
- └── ownable.json
-│
- ├── addresses.js
-│
- └── index.js
-├── react-app
-│
- ├── README.md
-│
- ├── package.json
-│
- ├── node_modules
-│
- ├── public
-│
- │
- ├── favicon.ico
-│
- │
- ├── index.html
-│
- │
- └── manifest.json
-│
- └── src
-│
- ├── App.css
-│
- ├── App.js
-│
- ├── App.test.js
-│
- ├── ethereumLogo.svg
-│
- ├── index.css
-│
- ├── index.js
-│
- ├── serviceWorker.js
-│
- └── setupTests.js
-└── subgraph
-├── README.md
-├── abis
-│
- └── erc20.json
-├── package.json
-├── schema.graphql
-├── src
-│
- └── mappings
-│
- ├── tokens.ts
-│
- └── transfers.ts
-└── subgraph.yaml
+    ├── contracts
+    │   ├── README.json
+    │   ├── package.json
+    │   └── src
+    │       ├── abis
+    │       │   ├── erc20.json
+    │       │   └── ownable.json
+    │       ├── addresses.js
+    │       └── index.js
+    ├── react-app
+    │   ├── README.md
+    │   ├── package.json
+    │   ├── node_modules
+    │   ├── public
+    │   │   ├── favicon.ico
+    │   │   ├── index.html
+    │   │   └── manifest.json
+    │   └── src
+    │       ├── App.css
+    │       ├── App.js
+    │       ├── App.test.js
+    │       ├── ethereumLogo.svg
+    │       ├── index.css
+    │       ├── index.js
+    │       ├── serviceWorker.js
+    │       └── setupTests.js
+    └── subgraph
+        ├── README.md
+        ├── abis
+        │   └── erc20.json
+        ├── package.json
+        ├── schema.graphql
+        ├── src
+        │   └── mappings
+        │       ├── tokens.ts
+        │       └── transfers.ts
+        └── subgraph.yaml
