@@ -2,10 +2,8 @@ Access Control Design Patterns
 
 This design pattern is used to restricting access to certain functions in the contract. here its used in the revive function which restore the boss to full health.
 
- function RestoreBossHealth() public onlyOwner {
-
- uint256 oldhealth = bigBoss.hp;
-
+function RestoreBossHealth() public onlyOwner {
+   uint256 oldhealth = bigBoss.hp;
  bigBoss.hp = bigBoss.maxHp;
 
  emit RestoreHealth(oldhealth, bigBoss.hp);
