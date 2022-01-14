@@ -6,7 +6,7 @@ contract Searcher {
     // poke is called when new data arrives
     function poke() public;
 
-    // this is called to ensure that only valid Searchers can be added to the Lighthouse - returns an arbitrarily chosen number
+    // this is called to ensure that only valid Searchers can be added to the Lighthouse
     function identify() external pure returns(uint) {
         return 0xda4b055;
     }
@@ -23,7 +23,7 @@ contract Lighthouse {
 
     uint maxAge;                      // if non zero, sets a limit to data validity
 
-/*--------------------------------- Admin Functions -----------------------------------------------*/
+/* Admin Functions */
 
     // Only allows an authorized address to call certain functions
     modifier onlyAuth {
@@ -54,7 +54,7 @@ contract Lighthouse {
         }
     }
 
-/*--------------------------------- Public Functions -----------------------------------------------*/
+/* Public Functions */
 
     // Checks if data is within age limit
     function notTooLongSinceUpdated() public view returns (bool) {
